@@ -6,21 +6,21 @@ export function Portfolio() {
     {
       title: "TOVI Logo Design",
       category: "Logo Design & Brand Identity",
-      image: "/src/Cliq Art/Logo.jpg",
+      image: "./Cliq Art/Logo.jpg",
       link: "https://www.behance.net/gallery/232063047/TOVI-Total-Video-Logo-Design-Brand-Identity",
       description: "A premium logo design and brand identity showcase for TOVI (Total Video), crafting a modern visual identity that embodies momentum, motion, and digital innovation."
     },
     {
       title: "Dried Mango Packaging",
       category: "Packaging Design",
-      image: "/src/Cliq Art/Packaging.jpg",
+      image: "./Cliq Art/Packaging.jpg",
       link: "https://www.behance.net/gallery/234276519/Dried-Mango-Pouch-Packaging-Design",
       description: "An organic and vibrant pouch packaging design for Dried Mango, blending premium product illustration with contemporary typography to stand out on shelves."
     },
     {
       title: "EdTech Social Media Design",
       category: "Social Media Design",
-      image: "/src/Cliq Art/SMP.jpg",
+      image: "./Cliq Art/SMP.jpg",
       link: "https://www.behance.net/gallery/228234979/Graphic-Design-Course-Social-Media-EdTech-Post-Design",
       description: "High-impact social media creative layouts designed for an EdTech brand, maximizing visual hierarchy and engagement to drive enrollments."
     },

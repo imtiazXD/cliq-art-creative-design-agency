@@ -68,7 +68,7 @@ export function Hero() {
              
              <div className="relative w-full max-w-[340px] lg:max-w-[420px] aspect-[4/5] mx-auto bg-gray-100 rounded-sm overflow-hidden">
                 <img
-                  src="/src/Cliq Art/Image.jpg"
+                  src="./Cliq Art/Image.jpg"
                   alt="Brand Design Portfolio"
                   className="w-full h-full object-cover grayscale-[30%] hover:grayscale-0 transition-all duration-700"
                 />

@@ -15,7 +15,7 @@ export function About() {
           >
             <div className="aspect-[4/5] rounded-sm overflow-hidden bg-charcoal relative border border-gray-200">
               <img 
-                src="/src/Cliq Art/PNG.png" 
+                src="./Cliq Art/PNG.png" 
                 alt="Creative Agency" 
                 className="w-full h-full object-cover opacity-80"
               />

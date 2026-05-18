@@ -34,7 +34,7 @@ export function Navbar() {
           <div className="flex justify-between items-center">
             {/* Logo */}
             <a href="#home" className="text-xl font-display font-black tracking-tighter uppercase text-charcoal flex items-center gap-2">
-              <img src="/src/Cliq Art/Cliq-Art-logo.png" alt="Cliq Art Logo" className="h-16 w-auto object-contain" />
+              <img src="./Cliq Art/Cliq-Art-logo.png" alt="Cliq Art Logo" className="h-16 w-auto object-contain" />
             </a>
 
             {/* Desktop Navigation */}
@@ -82,7 +82,7 @@ export function Navbar() {
             transition={{ type: 'tween', ease: 'easeInOut', duration: 0.3 }}
           >
             <div className="flex justify-between items-center p-5 border-b border-gray-100">
-              <img src="/src/Cliq Art/Cliq-Art-logo.png" alt="Cliq Art Logo" className="h-16 w-auto object-contain" />
+              <img src="./Cliq Art/Cliq-Art-logo.png" alt="Cliq Art Logo" className="h-16 w-auto object-contain" />
               <button onClick={() => setIsMobileMenuOpen(false)} className="text-charcoal hover:text-primary">
                 <X size={28} />
               </button>
