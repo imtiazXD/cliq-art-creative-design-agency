@@ -12,7 +12,6 @@ export function Navbar() {
     { name: 'Portfolio', href: '#portfolio' },
     { name: 'Process', href: '#process' },
     { name: 'About', href: '#about' },
-    { name: 'Team', href: '#team' },
     { name: 'Reviews', href: '#reviews' },
   ];
 

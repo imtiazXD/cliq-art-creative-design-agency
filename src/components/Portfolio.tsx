@@ -4,22 +4,25 @@ import { ArrowUpRight } from 'lucide-react';
 export function Portfolio() {
   const projects = [
     {
-      title: "Logo Design",
-      category: "Brand Identity",
+      title: "TOVI Logo Design",
+      category: "Logo Design & Brand Identity",
       image: "/src/Cliq Art/Logo.jpg",
-      height: "h-96"
+      link: "https://www.behance.net/gallery/232063047/TOVI-Total-Video-Logo-Design-Brand-Identity",
+      description: "A premium logo design and brand identity showcase for TOVI (Total Video), crafting a modern visual identity that embodies momentum, motion, and digital innovation."
     },
     {
-      title: "Packaging Design",
-      category: "Product Packaging",
+      title: "Dried Mango Packaging",
+      category: "Packaging Design",
       image: "/src/Cliq Art/Packaging.jpg",
-      height: "h-64"
+      link: "https://www.behance.net/gallery/234276519/Dried-Mango-Pouch-Packaging-Design",
+      description: "An organic and vibrant pouch packaging design for Dried Mango, blending premium product illustration with contemporary typography to stand out on shelves."
     },
     {
-      title: "Social Media Post",
-      category: "Social Media",
+      title: "EdTech Social Media Design",
+      category: "Social Media Design",
       image: "/src/Cliq Art/SMP.jpg",
-      height: "h-80"
+      link: "https://www.behance.net/gallery/228234979/Graphic-Design-Course-Social-Media-EdTech-Post-Design",
+      description: "High-impact social media creative layouts designed for an EdTech brand, maximizing visual hierarchy and engagement to drive enrollments."
     },
   ];
 
@@ -51,7 +54,9 @@ export function Portfolio() {
             </motion.h3>
           </div>
           <motion.a 
-            href="#portfolio"
+            href="https://www.behance.net/cliqart"
+            target="_blank"
+            rel="noreferrer"
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
@@ -101,11 +106,13 @@ export function Portfolio() {
                 </h4>
                 
                 <p className="text-gray-500 text-sm md:text-base font-medium leading-relaxed mb-8 max-w-md">
-                  A comprehensive design solution addressing brand identity, user experience, and visual aesthetics to position the client as an industry leader.
+                  {project.description}
                 </p>
                 
                 <motion.a 
-                  href="#"
+                  href={project.link}
+                  target="_blank"
+                  rel="noreferrer"
                   whileHover={{ x: index % 2 === 0 ? 10 : -10 }}
                   className={`flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-charcoal hover:text-primary transition-colors pb-1 ${index % 2 !== 0 ? 'md:flex-row-reverse' : ''}`}
                 >
@@ -119,7 +126,9 @@ export function Portfolio() {
         
         <div className="mt-12 flex justify-center md:hidden">
            <a 
-            href="#portfolio"
+            href="https://www.behance.net/cliqart"
+            target="_blank"
+            rel="noreferrer"
             className="px-8 py-4 border border-gray-200 text-charcoal font-bold uppercase tracking-widest text-[11px] rounded-sm flex items-center gap-2 hover:bg-charcoal hover:text-white transition-colors w-full justify-center"
            >
              View All Projects <ArrowUpRight size={14} />

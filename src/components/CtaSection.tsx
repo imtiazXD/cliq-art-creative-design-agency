@@ -34,7 +34,7 @@ export function CtaSection() {
               Start Your Project
             </a>
             <a
-              href="mailto:fardausahmad203@gmail.com"
+              href="mailto:cliqart01@gmail.com"
               className="w-full sm:w-auto px-8 py-4 border border-gray-300 bg-white text-charcoal font-bold uppercase tracking-widest text-[11px] rounded-sm hover:border-charcoal transition-all items-center justify-center shadow-sm flex gap-2"
             >
               Contact Us

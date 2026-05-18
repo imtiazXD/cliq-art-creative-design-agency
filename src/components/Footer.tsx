@@ -19,7 +19,7 @@ export function Footer() {
               We’re always looking to collaborate on interesting projects with great people. Reach out and let's craft something memorable.
             </p>
             <div className="flex gap-4">
-               <a href="https://www.facebook.com/cliqart" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-sm bg-[#333] flex items-center justify-center text-white hover:bg-[#1877F2] transition-colors shadow-sm">
+               <a href="https://www.facebook.com/share/1B2JiJTeLt/" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-sm bg-[#333] flex items-center justify-center text-white hover:bg-[#1877F2] transition-colors shadow-sm">
                  <Facebook size={16} />
                </a>
                <a href="https://www.behance.net/cliqart" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-sm bg-[#333] flex items-center justify-center text-white hover:bg-[#1769ff] transition-colors shadow-sm">
@@ -47,14 +47,14 @@ export function Footer() {
           <div className="lg:col-span-4">
             <h4 className="text-sm font-bold uppercase tracking-tight mb-6 md:mb-8 text-gray-500">Contact Info</h4>
             <div className="space-y-4 md:space-y-6">
-              <a href="mailto:fardausahmad203@gmail.com" className="flex items-start gap-4 group">
+              <a href="mailto:cliqart01@gmail.com" className="flex items-start gap-4 group">
                 <div className="w-10 h-10 bg-[#222] border border-[#333] rounded-sm flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors shrink-0">
                   <Mail size={16} />
                 </div>
                 <div>
                   <p className="text-[9px] text-gray-500 uppercase font-bold tracking-widest mb-1">Email Us</p>
                   <p className="text-xs md:text-sm font-bold tracking-tight text-gray-300 group-hover:text-white transition-colors">
-                    fardausahmad203@gmail.com
+                    cliqart01@gmail.com
                   </p>
                 </div>
               </a>
