@@ -4,21 +4,21 @@ import { ArrowUpRight } from 'lucide-react';
 export function Portfolio() {
   const projects = [
     {
-      title: "TOVI Logo Design",
+      title: "Logo Design",
       category: "Logo Design & Brand Identity",
       image: "./Cliq Art/Logo.jpg",
       link: "https://www.behance.net/gallery/232063047/TOVI-Total-Video-Logo-Design-Brand-Identity",
       description: "A premium logo design and brand identity showcase for TOVI (Total Video), crafting a modern visual identity that embodies momentum, motion, and digital innovation."
     },
     {
-      title: "Dried Mango Packaging",
+      title: "Packaging & Print Design",
       category: "Packaging Design",
       image: "./Cliq Art/Packaging.jpg",
       link: "https://www.behance.net/gallery/234276519/Dried-Mango-Pouch-Packaging-Design",
       description: "An organic and vibrant pouch packaging design for Dried Mango, blending premium product illustration with contemporary typography to stand out on shelves."
     },
     {
-      title: "EdTech Social Media Design",
+      title: "Social Media Design",
       category: "Social Media Design",
       image: "./Cliq Art/SMP.jpg",
       link: "https://www.behance.net/gallery/228234979/Graphic-Design-Course-Social-Media-EdTech-Post-Design",
@@ -28,7 +28,7 @@ export function Portfolio() {
 
   return (
     <section id="portfolio" className="py-24 bg-white text-charcoal border-b border-gray-100 overflow-hidden">
-      <div className="max-w-none px-4 md:px-12 lg:px-24">
+      <div className="max-w-7xl mx-auto px-4 md:px-12 lg:px-24">
         <div className="flex flex-col md:flex-row justify-between text-left items-end mb-16 gap-6 relative">
           <div className="absolute top-0 right-0 text-[70px] sm:text-[100px] md:text-[150px] font-display font-black text-gray-50 uppercase leading-none select-none pointer-events-none -mt-6 sm:-mt-10 md:-mt-16">
             Work
@@ -67,7 +67,7 @@ export function Portfolio() {
           </motion.a>
         </div>
 
-        <div className="flex flex-col gap-24 mt-20">
+        <div className="flex flex-col gap-16 md:gap-20 mt-16">
           {projects.map((project, index) => (
             <motion.div
               key={index}
@@ -75,9 +75,9 @@ export function Portfolio() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.8, ease: "easeOut" }}
-              className={`flex flex-col ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} gap-8 md:gap-16 items-center group`}
+              className={`flex flex-col ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} gap-8 md:gap-12 items-center group`}
             >
-              <div className="w-full md:w-3/5 flex justify-center">
+              <div className={`w-full md:w-1/2 flex justify-center ${index % 2 === 0 ? 'md:justify-start' : 'md:justify-end'}`}>
                 <div className="relative overflow-hidden rounded-sm shadow-sm">
                   <motion.div 
                     whileHover={{ scale: 1.02 }}
@@ -94,7 +94,7 @@ export function Portfolio() {
                 </div>
               </div>
 
-              <div className={`w-full md:w-2/5 flex flex-col ${index % 2 === 0 ? 'items-start text-left' : 'items-start md:items-end md:text-right'}`}>
+              <div className={`w-full md:w-1/2 flex flex-col ${index % 2 === 0 ? 'items-start text-left md:pl-8' : 'items-start md:items-end md:text-right md:pr-8'}`}>
                 <div className="flex items-center gap-3 mb-4">
                   <span className="w-8 h-px bg-primary hidden md:block" />
                   <p className="text-primary text-[10px] font-bold uppercase tracking-widest">{project.category}</p>
